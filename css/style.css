@@ -1,0 +1,85 @@
+/*CSS reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.w-900{
+    max-width: 900px;
+}
+
+/*Header*/
+header{
+    background-color: bisque;
+    height: 500px;
+}
+.top-header{
+    height: 15%;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-header{
+    height: 85%;
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    background-color: aliceblue;
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+.box{
+    background-color: red;
+    height: 100%;
+    width: 25%;
+}
+.link{
+    background-color: red;
+    border: 1px solid white;
+    height: 100%;
+    width: 50%;
+}
+.main-header > div{
+    height: 70%;
+    width: 40%;
+    background-color: pink;
+}
+
+/*Main*/
+.white{
+    background-color: white;
+}
+.gray{
+    background-color: gray;
+}
+.sezione{
+    display: flex;
+    justify-content: center;
+}
+.contenitore{
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+}
+.text-box{
+    background-color: pink;
+    width: 40%;
+    height: 80%;
+}
+.image-box{
+    background-color: violet;
+    width: 60%;
+    height: 80%;
+}
+.bigbox{
+    margin: 20px 0;
+    background-color: green;
+    width: 100%;
+    height: 800px;
+}
